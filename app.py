@@ -83,7 +83,7 @@ with col1:
 with col2:
 
     product_id = st.selectbox(
-        "Product ID",
+        "Product",
         sorted(data["Product ID"].unique())
     )
 
@@ -205,6 +205,9 @@ input_data = input_data[feature_names]
 # PREDICTION
 # =====================================================
 
+# =====================================================
+# PREDICTION
+# =====================================================
 
 if "generated" not in st.session_state:
     st.session_state.generated = False
@@ -418,7 +421,7 @@ with colA:
         f"""
         **Store ID:** {raw_input['Store ID'].iloc[0]}
 
-        **Product ID:** {raw_input['Product ID'].iloc[0]}
+        **Product:** {raw_input['Product ID'].iloc[0]}
 
         **Category:** {raw_input['Category'].iloc[0]}
 
