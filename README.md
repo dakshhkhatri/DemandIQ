@@ -2,7 +2,8 @@
 
 DemandIQ is an end-to-end machine learning application that helps retailers forecast product demand and make smarter inventory decisions. The system predicts future demand using historical sales and business-related factors such as pricing, promotions, seasonality, weather conditions, inventory levels, and competitor pricing.
 
-
+## Live Demo
+https://demandiq-xe2szb3iw7w45edkrv4zeh.streamlit.app/
 
 ## 📌 Problem Statement
 
